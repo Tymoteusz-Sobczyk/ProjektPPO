@@ -2,7 +2,7 @@
 <h3><b>Opis</b></h3>
 Celem projektu jest stworzenie prostej aplikacji internetowej służącej do zarządzania zakładem karnym. System będzie umożliwiał ewidencjonowanie osadzonych, zarządzanie celami, obsługę kont użytkowników oraz wykonywanie podstawowych operacji na danych. Aplikacja będzie posiadała interfejs graficzny dostępny z poziomu przeglądarki internetowej.<br>
 <h3><b>Projekt zostanie podzielony na trzy główne moduły:</b></h3><br>
-•	Frontend – interfejs użytkownika umożliwiający korzystanie z funkcjonalności aplikacji.
+•	Frontend – interfejs użytkownika umożliwiający korzystanie z funkcjonalności aplikacji.<br>
 •	Backend – część odpowiedzialna za logikę biznesową, przetwarzanie danych oraz realizację zasad działania systemu.<br>
 •	Server – warstwa odpowiedzialna za komunikację pomiędzy frontendem a backendem oraz obsługę połączenia z bazą danych.<br>
 •	Bazy danych - warstwa odpowiedzialna za przechowywanie, organizowanie i udostępnianie danych wykorzystywanych przez aplikację. Baza danych współpracuje z backendem, który przekazuje zapytania i odbiera wyniki operacji na danych.<br>

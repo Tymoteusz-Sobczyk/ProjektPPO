@@ -1,0 +1,1 @@
+żeby podejrzeć jak wygląda strona, otwórz index.html w przeglądarce

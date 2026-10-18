@@ -1,8 +1,12 @@
 <h2><b>System Zarządzania Więzieniem</b></h2><br>
 <h3><b>Opis</b></h3>
-Nasz projekt będzie prostym portalem służącym do zarządzania Zakładem karnym. Zbudowany będzie z 3 osobnych modułów.<br> Backend - kod w którym będzie się znajdowała cała, albo zdecydowana większość logiki naszego projektu.<br>
-Frontend - strona internetowa która będzie służyła za interfejs użytkownika<br>
-Server - kod, który będzie odpowiadał za komunikację front i back endu, oraz implementację bazy danych<br><br>
+Celem projektu jest stworzenie prostej aplikacji internetowej służącej do zarządzania zakładem karnym. System będzie umożliwiał ewidencjonowanie osadzonych, zarządzanie celami, obsługę kont użytkowników oraz wykonywanie podstawowych operacji na danych. Aplikacja będzie posiadała interfejs graficzny dostępny z poziomu przeglądarki internetowej.<br>
+<h3><b>Projekt zostanie podzielony na trzy główne moduły:</b></h3><br>
+•	Frontend – interfejs użytkownika umożliwiający korzystanie z funkcjonalności aplikacji.
+•	Backend – część odpowiedzialna za logikę biznesową, przetwarzanie danych oraz realizację zasad działania systemu.<br>
+•	Server – warstwa odpowiedzialna za komunikację pomiędzy frontendem a backendem oraz obsługę połączenia z bazą danych.<br>
+•	Bazy danych - warstwa odpowiedzialna za przechowywanie, organizowanie i udostępnianie danych wykorzystywanych przez aplikację. Baza danych współpracuje z backendem, który przekazuje zapytania i odbiera wyniki operacji na danych.<br>
+<br><br>
 Implementować będziemy raczej "typowe" funkcjonalności jak np:
 <ul>
 <li>Spis wszystkich osadzonych wraz z ich danymi <i>(imię, nazwisko, długość wyroku itd.)</i></li>

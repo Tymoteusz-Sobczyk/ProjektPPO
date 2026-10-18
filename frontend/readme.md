@@ -3,7 +3,7 @@
 Plik tsconfig.json upraszcza kompilację kodu TypeScript do JavaScript (wykonywalnego przez przeglądarkę).<br>
 Jeżeli chcesz sprawdzić aktualny wygląd strony, otwórz index.html na przeglądarce.<br><br>
 
-Pamiętaj, żeby skrypt zadziałał, musisz  najpierw <b>zbudować</b> projekt.
+Żeby skrypt strony zadziałał, musisz  najpierw <b>zbudować</b> projekt.
 W tym celu uruchom plik <b>build.bat</b>.<br>
 Skopiuje on wszystkie pliki .html oraz .css do ścieżki build\ oraz umieści tam skompilowany kod JavaScript.<br>
 Wtedy wystaczy już zwyczajnie otworzyć plik <b>build\index.html</b> w wybranej przeglądarce<br>

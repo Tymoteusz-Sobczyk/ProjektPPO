@@ -6,11 +6,14 @@
     "outDir": "../build/scripts",
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
-    "module": "nodenext",
-    "target": "esnext",
-    "types": [],
+    "module": "ESNext",
+    "target": "ES6",
+    // "types": [],
     // For nodejs:
-    // "lib": ["esnext"],
+    "lib": [
+      "DOM",
+      "esnext"
+    ],
     // "types": ["node"],
     // and npm install -D @types/node
     // Other Outputs
@@ -21,10 +24,10 @@
     "noUncheckedIndexedAccess": true,
     "exactOptionalPropertyTypes": true,
     // Style Options
-    // "noImplicitReturns": true,
+    "noImplicitReturns": true,
     // "noImplicitOverride": true,
     // "noUnusedLocals": true,
-    // "noUnusedParameters": true,
+    "noUnusedParameters": true,
     // "noFallthroughCasesInSwitch": true,
     // "noPropertyAccessFromIndexSignature": true,
     // Recommended Options
@@ -33,7 +36,7 @@
     "verbatimModuleSyntax": true,
     "isolatedModules": true,
     "noUncheckedSideEffectImports": true,
-    "moduleDetection": "force",
+    // "moduleDetection": "force",
     "skipLibCheck": true,
   }
 }

@@ -5,14 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test</title>
-    <link rel="stylesheet " href="style.css">
-    <script src="scripts/script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts/index.js" defer></script>
 </head>
 
 <body>
+    <form id="login-form" novalidate>
+        <div>
+            <label for="username" class="login-sub-element"><b>Login</b></label>
+            <input type="text" placeholder="Wpisz login..." id="username" required class="login-sub-element">
+            <br>
+
+            <label for="password" class="login-sub-element"><b>Hasło</b></label>
+            <input type="password" placeholder="Wpisz login..." id="password" required class="login-sub-element">
+            <br>
+
+            <button type="submit" class="login-sub-element">Zaloguj się</button>
+            <button onclick="closePopUp('login-form')" class="login-sub-element">Anuluj</button>
+        </div>
+    </form>
+
     <header id="top">
         <div>
-            <button onclick="func()">Zaloguj się</button>
+            <button onclick="popUp('login-form')">Zaloguj się</button>
         </div>
 
         <div>

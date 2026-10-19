@@ -74,3 +74,35 @@ body {
 }
 
 #right {}
+
+#login-form {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 2%;
+    top: 5%;
+}
+
+#login-form div {
+    background-color: #4a210a;
+    color: #b8b5b3;
+    padding: 1em 2em;
+    margin: 1em;
+    border: 0.2em solid #2f1603;
+    border-radius: 0.5em;
+    box-shadow: 0 0.4em 1em rgba(43, 35, 31, 0.3);
+}
+
+.login-sub-element {
+    padding: 0.5em 1em;
+    margin: 0.5em;
+
+}
+
+#username {
+    font-size: 0.8rem;
+}
+
+#password {
+    font-size: 0.8rem;
+}

@@ -20,21 +20,26 @@
             <input type="password" placeholder="Wpisz login..." id="password" required class="login-sub-element">
             <br>
 
-            <button type="submit" class="login-sub-element">Zaloguj się</button>
-            <button type="button" onclick="closePopUp('login-form')" class="login-sub-element">Anuluj</button>
+            <button type="submit" id="submit-button" class="login-sub-element">Zaloguj się</button>
+            <button type="button" id="cancel-button" class="login-sub-element">Anuluj</button>
         </div>
     </form>
 
     <header id="top">
-        <div id="top-left">
-            <button onclick="popUp('login-form')">Zaloguj się</button>
+        <div id="top-left" class="top-div">
+            <button id="login-button" onclick="popUp('login-form')">Zaloguj się</button>
         </div>
 
-        <div id="top-center">
+        <div id="top-center" class="top-div">
             <h3>Nazwa Więzienia(logo?)</h3>
         </div>
 
-        <div id="top-right">Zegar<br>data</div>
+        <div id="top-right" class="top-div">
+            <div id="clock-and-date">
+                <p id="clock">21:24</p>
+                <p id="date">22.10.2026</p>
+            </div>
+        </div>
     </header>
 
     <div id="main-container">

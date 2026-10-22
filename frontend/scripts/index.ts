@@ -1,20 +1,31 @@
+// important constants
+const loginForm = document.getElementById('login-form')! as HTMLFormElement;
+const cancel_button = document.getElementById('cancel-button')!;
+
+
 // Function to make any html element appear
 function popUp(element: string) {
     const documentElement = document.getElementById(element)!;
-    documentElement.style.display = 'block';
+    documentElement.style.display = 'flex';
 }
 
-function closePopUp(element: string) {
-    const documentElement = document.getElementById(element)!;
-    documentElement.style.display = 'none';
-}
+cancel_button.addEventListener('click', () => {
+    loginForm.style.display = 'none';
+});
+
+// Closing pop up on click on dark background
+loginForm.onclick = (event) => {
+    if (event.target === loginForm) {
+        loginForm.style.display = 'none';
+    }
+};
 // Setting up event listener for #login-form form
 interface LoginData {
     login: string;
     password: string;
 }
 
-const loginForm = document.getElementById('login-form')! as HTMLFormElement;
+
 loginForm.onsubmit = (event) => {
     event.preventDefault();
     let LoginData = {
@@ -23,3 +34,4 @@ loginForm.onsubmit = (event) => {
     };
     console.log(LoginData);
 }
+
